@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		497526C918F3B1544804BC06 /* Pods_TodoRealmCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58904B591DA5D13EFDDA91D5 /* Pods_TodoRealmCloud.framework */; };
 		CF521196204BA8D500707AE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF521195204BA8D500707AE8 /* AppDelegate.swift */; };
-		CF521198204BA8D500707AE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF521197204BA8D500707AE8 /* ViewController.swift */; };
-		CF52119B204BA8D500707AE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF521199204BA8D500707AE8 /* Main.storyboard */; };
+		CF521198204BA8D500707AE8 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF521197204BA8D500707AE8 /* WelcomeViewController.swift */; };
 		CF52119D204BA8D500707AE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF52119C204BA8D500707AE8 /* Assets.xcassets */; };
 		CF5211A0204BA8D500707AE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF52119E204BA8D500707AE8 /* LaunchScreen.storyboard */; };
+		CF5211A8204BAA5900707AE8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5211A7204BAA5900707AE8 /* Constants.swift */; };
+		CF5211AA204BACC500707AE8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5211A9204BACC500707AE8 /* Item.swift */; };
+		CF5211AC204BAD9200707AE8 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5211AB204BAD9200707AE8 /* ItemsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58904B591DA5D13EFDDA91D5 /* Pods_TodoRealmCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoRealmCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9806E329DE66F6740CBDBFEC /* Pods-TodoRealmCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoRealmCloud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodoRealmCloud/Pods-TodoRealmCloud.debug.xcconfig"; sourceTree = "<group>"; };
+		C4FD8B7F52FD1892FBD6E638 /* Pods-TodoRealmCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoRealmCloud.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodoRealmCloud/Pods-TodoRealmCloud.release.xcconfig"; sourceTree = "<group>"; };
 		CF521192204BA8D500707AE8 /* TodoRealmCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoRealmCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF521195204BA8D500707AE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF521197204BA8D500707AE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CF52119A204BA8D500707AE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF521197204BA8D500707AE8 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		CF52119C204BA8D500707AE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF52119F204BA8D500707AE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF5211A1204BA8D500707AE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF5211A7204BAA5900707AE8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CF5211A9204BACC500707AE8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CF5211AB204BAD9200707AE8 /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				497526C918F3B1544804BC06 /* Pods_TodoRealmCloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		172ED19E2A52C972D7450BC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9806E329DE66F6740CBDBFEC /* Pods-TodoRealmCloud.debug.xcconfig */,
+				C4FD8B7F52FD1892FBD6E638 /* Pods-TodoRealmCloud.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3FE37735351AB5E780D1A1AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58904B591DA5D13EFDDA91D5 /* Pods_TodoRealmCloud.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CF521189204BA8D500707AE8 = {
 			isa = PBXGroup;
 			children = (
 				CF521194204BA8D500707AE8 /* TodoRealmCloud */,
 				CF521193204BA8D500707AE8 /* Products */,
+				172ED19E2A52C972D7450BC5 /* Pods */,
+				3FE37735351AB5E780D1A1AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,9 +82,11 @@
 		CF521194204BA8D500707AE8 /* TodoRealmCloud */ = {
 			isa = PBXGroup;
 			children = (
+				CF5211A7204BAA5900707AE8 /* Constants.swift */,
 				CF521195204BA8D500707AE8 /* AppDelegate.swift */,
-				CF521197204BA8D500707AE8 /* ViewController.swift */,
-				CF521199204BA8D500707AE8 /* Main.storyboard */,
+				CF521197204BA8D500707AE8 /* WelcomeViewController.swift */,
+				CF5211AB204BAD9200707AE8 /* ItemsViewController.swift */,
+				CF5211A9204BACC500707AE8 /* Item.swift */,
 				CF52119C204BA8D500707AE8 /* Assets.xcassets */,
 				CF52119E204BA8D500707AE8 /* LaunchScreen.storyboard */,
 				CF5211A1204BA8D500707AE8 /* Info.plist */,
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF5211A4204BA8D500707AE8 /* Build configuration list for PBXNativeTarget "TodoRealmCloud" */;
 			buildPhases = (
+				8594A3E7E8FCBBAC89564B9F /* [CP] Check Pods Manifest.lock */,
 				CF52118E204BA8D500707AE8 /* Sources */,
 				CF52118F204BA8D500707AE8 /* Frameworks */,
 				CF521190204BA8D500707AE8 /* Resources */,
+				7AC316B86ABDA29F1EE61F72 /* [CP] Embed Pods Frameworks */,
+				367A3F1E12D2EDE9BCB99D89 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,33 +158,83 @@
 			files = (
 				CF5211A0204BA8D500707AE8 /* LaunchScreen.storyboard in Resources */,
 				CF52119D204BA8D500707AE8 /* Assets.xcassets in Resources */,
-				CF52119B204BA8D500707AE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		367A3F1E12D2EDE9BCB99D89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodoRealmCloud/Pods-TodoRealmCloud-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AC316B86ABDA29F1EE61F72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TodoRealmCloud/Pods-TodoRealmCloud-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodoRealmCloud/Pods-TodoRealmCloud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8594A3E7E8FCBBAC89564B9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TodoRealmCloud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CF52118E204BA8D500707AE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF521198204BA8D500707AE8 /* ViewController.swift in Sources */,
+				CF5211AA204BACC500707AE8 /* Item.swift in Sources */,
+				CF521198204BA8D500707AE8 /* WelcomeViewController.swift in Sources */,
+				CF5211AC204BAD9200707AE8 /* ItemsViewController.swift in Sources */,
 				CF521196204BA8D500707AE8 /* AppDelegate.swift in Sources */,
+				CF5211A8204BAA5900707AE8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CF521199204BA8D500707AE8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF52119A204BA8D500707AE8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CF52119E204BA8D500707AE8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,6 +355,7 @@
 		};
 		CF5211A5204BA8D500707AE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9806E329DE66F6740CBDBFEC /* Pods-TodoRealmCloud.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +371,7 @@
 		};
 		CF5211A6204BA8D500707AE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4FD8B7F52FD1892FBD6E638 /* Pods-TodoRealmCloud.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
